@@ -42,7 +42,7 @@ export default function LoginPage() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button type="submit">Login</button>
+          <Link to="/"><button type="submit">Login</button></Link>
         </form>
         <p style={{ marginTop: "0.75rem", fontSize: "0.9rem" }}>
           No account? <Link to="/signup">Sign up</Link>

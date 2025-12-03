@@ -50,7 +50,7 @@ export default function SignupPage() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button type="submit">Create account</button>
+          <Link to="/login"><button type="submit">Create an Account</button></Link>
         </form>
         <p style={{ marginTop: "0.75rem", fontSize: "0.9rem" }}>
           Already have an account? <Link to="/login">Login</Link>
